@@ -23,36 +23,40 @@
 
     <div class="container">
 
+      <h1 class="display-2 text-light text-center">Game of Stones</h1>
 
       <div class="col">
-        <h1 class="display-4 text-muted bg-light shadow rounded text-center">Game of Stones</h1>
-        
-        <div class="row">
+        <div class="row justify-content-center">     
+
+          <div class="col-sm-12 col-md-12">
+            <img class="img-fluid rounded border border-dark" src="images/game_images/game_of_stones/gos1.png">
+          </div>
 
           <div class="w-100"><br></div>
 
-          <div class="col-sm-12 col-lg-4">
+          <div class="col-sm-12 col-md-5">
             <div class="card bg-light shadow">
-              <div class="card-body">
-                  <p>3D Voxel-Terrain, “Colony Management” video game prototype</p>
-                  <p>Created using C++ and OpenGL</p>
-                  <p>Uses PolyVox library for 
-                    <ul>
-                      <li>Management of voxel data</li>
-                      <li>Triangle mesh generation of voxels</li>
-                      <li>aid in 3D pathfinding</li>
-                    </ul> 
-                  </p>
-                  <p>Uses BulletPhysics library for player physics</p>
-              </div>
+              <div class="card-header text-muted">More complete description on <a href="https://github.com/alexsaalberg/game_of_stones">Github</a></div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-light">3D Voxel-Terrain, “Colony Management” video game prototype.</li>
+                <li class="list-group-item bg-light">Written in <b>C++</b>.</li>
+                <li class="list-group-item bg-light">Created using <b>PolyVox</b> and <b>BulletPhysics</b> libraries.</li>
+                <li class="list-group-item bg-light">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a type="button" class="btn btn-sm btn-info" href="files/circles.exe" download><i class="fab fa-github"></i> github</a>
+                    <small class="text-muted">2018</small>
+                    <a type="button" class="btn btn-sm btn-info disabled" href="files/circles.exe" download><i class="fab fa-windows"></i> download</a>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
 
-          <div class="d-lg-none col-sm-12 col-lg-0">
+          <div class="d-md-none col-sm-12 col-md-0">
             <br>
           </div>
 
-          <div class="col-sm-12 col-lg-8 align-self-center">
+          <div class="col-sm-12 col-md-7 align-self-center">
             <div class="embed-responsive embed-responsive-16by9 rounded shadow">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/srrBpUMm_rs"></iframe>
             </div>
@@ -61,11 +65,44 @@
           <div class="w-100"><br></div>
 
           <div class="col-12">
-            <div class="card bg-light">
-              <div class="card-body">
-                gallery
-              </div>
-            </div>
+            <h1 class="display-3 text-light text-center">Gallery</h1>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <figure class="figure">
+              <img src="images/game_images/game_of_stones/gos2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+              <figcaption class="figure-caption text-light">Small building.</figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <figure class="figure">
+              <img src="images/game_images/game_of_stones/gos3.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+              <figcaption class="figure-caption text-light">Glitchy view from underneath the terrain.</figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <figure class="figure">
+              <img src="images/game_images/game_of_stones/gos4.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+              <figcaption class="figure-caption text-light">Image from immediately after I got 'picking' to work. All the large cubes were placed by clicking on the screen. The hard-edges on the far hill show the limit of the loaded terrain.</figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <figure class="figure">
+              <img src="images/game_images/game_of_stones/gos5.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+              <figcaption class="figure-caption text-light">Very early image from when I was trying to send voxel meshes to the GPU. All the vertices were accidently being rendered in a very small area leading to this spiky-looking object.</figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <figure class="figure">
+              <img src="images/game_images/game_of_stones/gos7.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+              <figcaption class="figure-caption text-light">Same as previous image.</figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <figure class="figure">
+              <img src="images/game_images/game_of_stones/gos1.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+              <figcaption class="figure-caption text-light">Demonstration of multiple block colors as well as selection arrows for colonists.</figcaption>
+            </figure>
           </div>
 
         </div>

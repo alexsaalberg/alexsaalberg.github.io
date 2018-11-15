@@ -1,15 +1,26 @@
 body {
   background: url("./images/backgrounds/grey_wash_wall.png");
-  /*dark_embroidery, grey_wash_wall, pink_dust
+  /*dark_embroidery, grey_wash_wall, pink_dust*/
   background-repeat: repeat;
 }
-
+/*
 a {
   color:inherit;
 }
+*/
 
 a:hover{
   text-decoration: none;
+}
+
+.display-2 .display-1{
+	text-shadow: 1.5px 1.5px 0 #1F1F1F;
+}
+
+.carousel-item{
+	width: auto;
+	height: 300px;
+	max-height: 300px;
 }
 
 

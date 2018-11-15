@@ -13,7 +13,7 @@ a:hover{
   text-decoration: none;
 }
 
-.display-2 .display-1{
+.display-2, .display-3{
 	text-shadow: 1.5px 1.5px 0 #1F1F1F;
 }
 
